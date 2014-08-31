@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BreakerOpenReason.cs" />
+    <Compile Include="ICircuitBreakerConfig.cs" />
     <Compile Include="IClosedEvent.cs" />
     <Compile Include="IEventFactory.cs" />
     <Compile Include="IOpenedEvent.cs" />

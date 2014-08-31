@@ -4,6 +4,6 @@ namespace Helpful.CircuitBreaker.Events
 {
     public interface IOpenedEvent
     {
-        void RaiseEvent(object breakerConfig, BreakerOpenReason reason, Exception thrownException);
+        void RaiseEvent(ICircuitBreakerConfig breakerConfig, BreakerOpenReason reason, Exception thrownException);
     }
 }
