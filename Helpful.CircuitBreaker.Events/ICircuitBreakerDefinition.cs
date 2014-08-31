@@ -1,6 +1,6 @@
 ﻿namespace Helpful.CircuitBreaker.Events
 {
-    public interface ICircuitBreakerConfig
+    public interface ICircuitBreakerDefinition
     {
         string BreakerId { get; set; }
     }

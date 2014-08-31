@@ -2,6 +2,6 @@
 {
     public interface IRegisterBreakerEvent
     {
-        void RaiseEvent(ICircuitBreakerConfig breakerConfig);
+        void RaiseEvent(ICircuitBreakerDefinition breakerDefinition);
     }
 }

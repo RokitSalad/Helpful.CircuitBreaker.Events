@@ -2,6 +2,6 @@
 {
     public interface IClosedEvent
     {
-        void RaiseEvent(ICircuitBreakerConfig breakerConfig);
+        void RaiseEvent(ICircuitBreakerDefinition breakerDefinition);
     }
 }
